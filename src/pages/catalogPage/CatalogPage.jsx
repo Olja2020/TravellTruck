@@ -2,7 +2,7 @@ import LocationTravelTrucks from "../../components/locationTravelTrucks/Location
 import VehicleEquipmentFilters from "../../components/vehicleEquipmentFilters/VehicleEquipmentFilters.jsx";
 import VehicleType from "../../components/vehicleType/VehicleType.jsx";
 import DescriptionTravelTrucks from "../../components/descriptionTravelTrucks/DescriptionTravelTrucks.jsx";
-//import ListItems from "../../components/listItems/ListItems.jsx";
+import CampersList from "../../components/campersList/CampersList.jsx";
 import styles from "./CatalogPage.module.css";
 const CatalogPage = () => {
   return (
@@ -13,7 +13,7 @@ const CatalogPage = () => {
           <VehicleEquipmentFilters />
           <VehicleType />
           <DescriptionTravelTrucks />
-          {/* <ListItems /> */}
+           <CampersList /> 
         </div>
       </div>
     </div>
