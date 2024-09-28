@@ -1,0 +1,42 @@
+import css from "./ItemOptions.module.css";
+
+const ItemOptions = ({
+  id,
+  transmission,
+  engine,
+  AC,
+  bathroom,
+  kitchen,
+  TV,
+  radio,
+  refrigerator,
+  microwave,
+  gas,
+  water
+}) => {
+  return (
+    <div className={css.container} key={id}>
+       <div className={css.cardWrapper}>
+        <div className={css.name}>{transmission}</div>
+        <div className={css.price}>{engine}</div>
+        <div className={css.rating}>{AC}</div>
+        <div className={css.location}>{bathroom}</div>
+        <div className={css.description}>{kitchen}</div>
+        <div className={css.name}>{TV}</div>
+        <div className={css.price}>{radio}</div>
+        <div className={css.rating}>{refrigerator}</div>
+        <div className={css.location}>{microwave}</div>
+        <div className={css.description}>{gas}</div>
+        <div className={css.description}>{water}</div>
+      </div>
+    </div>
+  );
+};
+export default ItemOptions;
+form,
+  length,
+  width,
+  height,
+  tank,
+  consumption,
+  

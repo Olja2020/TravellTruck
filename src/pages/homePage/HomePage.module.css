@@ -1,0 +1,11 @@
+.homePage {
+  background-image: url("../../../public/images/Picture.png");
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 696px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 64px;
+}

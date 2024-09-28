@@ -1,0 +1,40 @@
+.headerSection {
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:50px;
+}
+
+.headerWrapper {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f2f4f7;
+  padding: 24px 64px 24px 64px;
+  justify-content: center;
+  position: relative;
+}
+.headerWrapperLogo {
+  position: absolute;
+  top: 28px;
+  left: 64px;
+}
+.link {
+  text-decoration: none;
+  color: #101828;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: Inter, sans-serif;
+}
+.link:hover,
+.link:active {
+  color: #d84343;
+}
+.container_links {
+  display: flex;
+  gap: 32px;
+}
