@@ -1,0 +1,194 @@
+/* .imageCheckboxGroup {
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.imageCheckboxLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 112px;
+  height: 96px;
+  border-radius: 12px;
+  border: 1px solid #dadde1;
+}
+.imageCheckboxLabel:hover {
+  border: 1px solid #e44848;
+}
+
+.imageCheckbox {
+  width: 112px;
+  height: 96px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  fill: #101828;
+}
+
+.imageCheckbox.selected {
+  border-color: #e44848; /* Цвет рамки для выбранной картинки */
+/* } 
+
+/* .error {
+  color: red;
+  margin-top: 10px;
+}
+.submitButton {
+  width: 166px;
+  height: 56px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 200px;
+} */
+.subTitle {
+  width: 360px;
+/* height: 56px;
+ padding:  14px;
+ border-radius: 12px; */
+ border: none;
+ margin-bottom: 8px;
+ font-family: Inter, sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ box-shadow: none;
+ outline: none;
+ color: #10182899;
+}
+
+.location{
+color: #6C717B; 
+font-family: Inter, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+
+}
+
+.searchInput {
+ width: 360px;
+ height: 56px;
+ padding:  14px;
+ border-radius: 12px;
+ border: none;
+ background-color: #F7F7F7;
+ font-family: Inter, sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ box-shadow: none;
+ outline: none;
+ color: #101828;
+ background-image: url('../../../public/Vector.svg');
+ padding-left: 45px;
+ background-repeat: no-repeat;
+ background-position: top 18px left 20px;
+
+}
+
+h3{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color:#101828;
+  width:360px;
+  border-bottom: 1px solid #DADDE1;
+  height: 50px;
+  margin-bottom: 22px;
+
+}
+.filterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width:360px;
+  gap: 8px;
+  height: 200px;
+  margin-bottom: 32px;
+}
+.filters{
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #475467;
+margin-top: 40px;
+margin-bottom: 40px;
+
+}
+.filterItem{
+  width:112px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  
+  border: 1px solid #DADDE1;
+}
+  
+  .filtersBtn{
+      width: 166px;
+      height: 56px;
+      outline: none;
+      padding: 16px 60px 16px 60px;
+      border: none;
+      gap: 10px;
+      border-radius: 20px;
+      background-color: #E44848;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 1.5;
+      text-align: center;
+      color: #FFFFFF;
+
+  }
+
+
+label {
+border-radius: 12px;    
+border: 1px solid #DADDE1;
+width:112px;
+height: 96px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 1.5;
+text-align: center;
+color: #101828;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+input[type=checkbox],
+input[type=radio]
+{
+  
+  width:112px;
+  height:96px;
+  opacity:0;
+  position: absolute;
+  outline: none;
+}
+.bordered  {
+  border: 1px solid #E44848;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label{
+  border: 1px solid #E44848 ;
+}

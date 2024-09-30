@@ -1,0 +1,32 @@
+.container{
+    margin: 0 auto; 
+    width: 1440px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    justify-content: flex-start;
+    gap:200px;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto; 
+    background-color: #F2F4F7;
+}
+.logo{
+padding: 28px 0 28px 64px;
+color: #101828;
+}
+.logo:hover{
+    color: #101828; 
+}
+.logo_accent{
+ color: #475467;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:32px;
+}
