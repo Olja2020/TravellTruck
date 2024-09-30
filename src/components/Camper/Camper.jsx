@@ -30,24 +30,24 @@ const Camper = ({ camper }) => {
             <div className={styles.headerInfoRight}>
               <h2 className={styles.price}>&euro;{camper.price}</h2>
               <svg width="24px" height="24px" className={styles.favorite}>
-                <use href="/images/icons.svg#iconHeart"></use>
+                <use href="/public/symbol-defs.svg#icon-Property-1Default"></use>
               </svg>
             </div>
           </div>
           <div className={styles.details}>
             <div className={styles.reviews}>
               <svg width="16px" height="16px">
-                <use href="/images/icons.svg#iconStart"></use>
+                <use href="/public/symbol-defs.svg#icon-Property-1Pressed-1"></use>
               </svg>
-              <span>
+              <span className={styles.reviewsSpan}>
                 {camper.rating} ({camper.reviews.length} Reviews)
               </span>
             </div>
             <div className={styles.location}>
               <svg width="16px" height="16px">
-                <use href="/images/icons.svg#iconMap"></use>
+                <use href="/public/symbol-defs.svg#icon-Vector-2"></use>
               </svg>
-              <span>{camper.location}</span>
+              <span className={styles.locationSpan}>{camper.location}</span>
             </div>
           </div>
         </div>

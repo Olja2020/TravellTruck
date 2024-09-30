@@ -77,7 +77,9 @@
   align-items: center;
   gap: 4px;
 }
-
+.reviewsSpan{
+  text-decoration: underline;
+}
 .description {
   font-size: 16px;
   line-height: 1.5;
@@ -92,7 +94,6 @@
     width: 166px;
     height: 56px;
     outline: none;
-    
     border: none;
     gap: 10px;
     border-radius: 20px;
@@ -107,4 +108,9 @@
 
 }
   
-
+.location{
+  transform: scale(-1, 1);
+}
+.locationSpan{
+  transform: scale(-1, 1);
+}
