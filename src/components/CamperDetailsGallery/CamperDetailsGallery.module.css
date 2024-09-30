@@ -1,0 +1,132 @@
+.camperContainer {
+    display: flex;
+    gap: 24px;
+    height:320px;
+  }
+  .camperContainer:hover {
+  bopder:1px solid 
+  }
+  .image {
+    border-radius: 10px;
+    width: 292px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 524px;
+  }
+  
+  .headerInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 524px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+  }
+  
+  .headerInfoRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+  }
+  
+  .favorite {
+    fill: #101828;
+    cursor: pointer;
+  }
+  
+  .favorite:hover {
+    fill: #d84343;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .reviews {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .reviewsSpan:hover{
+    text-decoration: underline;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width:525px;
+    height:24px;
+    
+    white-space: nowrap;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .button {
+    
+      width: 166px;
+      height: 56px;
+      outline: none;
+      border: none;
+      gap: 10px;
+      border-radius: 20px;
+      background-color: #E44848;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 1.5;
+      text-align: center;
+      color: #FFFFFF;
+  
+  }
+    
+  .location{
+    display: flex;
+    align-items: center;
+  }
+  .locationSpan{
+    margin-left: 2px;
+  } 
+  .containerButton{
+    display: flex;
+    gap:8px;
+    width: 400px;
+    flex-wrap: wrap;
+  }
