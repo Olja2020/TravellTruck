@@ -88,13 +88,23 @@
 }
 
 .button {
-  background-color: #101828;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.5;
-  color: #ffffff;
-  cursor: pointer;
+  
+    width: 166px;
+    height: 56px;
+    outline: none;
+    
+    border: none;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #E44848;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+
 }
+  
+
