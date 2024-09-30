@@ -52,6 +52,21 @@ const Camper = ({ camper }) => {
           </div>
         </div>
         <p className={styles.description}>{camper.description}</p>
+        <div className={styles.containerButton}>
+        <img
+  class="picture"
+  src="../../../public/images/AuthimaticPicture.png"
+  alt="Button Authimatic" /><img
+  class="picture"
+  src="../../../public/images/PetrolButton.png"
+  alt="Button Authimatic" /><img
+  class="picture"
+  src="../../../public/images/KitchenPicture.png"
+  alt="Button Authimatic" /><img
+  class="picture"
+  src="../../../public/images/ButtunAC.png"
+  alt="Button Authimatic" />
+  </div>
         <NavLink to={`/catalog/${camper.id}`} target="blank">
           <button type="button" className={styles.button} onClick={handleDetails}>
             Show more

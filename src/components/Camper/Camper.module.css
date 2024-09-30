@@ -115,3 +115,9 @@
 .locationSpan{
   margin-left: 2px;
 } 
+.containerButton{
+  display: flex;
+  gap:8px;
+  width: 400px;
+  flex-wrap: wrap;
+}
