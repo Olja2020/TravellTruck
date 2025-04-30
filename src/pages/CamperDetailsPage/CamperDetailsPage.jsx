@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import css from './CamperDetailsPage.module.css';
+//import styles from './CamperDetailsPage.module.css';
 
 import BookingForm from '../../components/BookingForm/BookingForm';
-//import CamperDetailsGallery from '../../components/CamperDetailsGallery/CamperDetailsGallery';
+import CamperDetailsGallery from '../../components/CamperDetailsGallery/CamperDetailsGallery';
 
 const CamperDetailsPage = () => {
   const { id } = useParams(); // Получаем id из URL
@@ -41,21 +41,23 @@ const CamperDetailsPage = () => {
 
   return (
     <>
-    
-      <div className={css.details}>
-        <h2>{camper.name}</h2>
+
+      <CamperDetailsGallery/>
+{/*     
+      <div className={css.details}> */}
+        {/* <h2>{camper.name}</h2> */}
         {/* <CamperDetailsGallery camper={camper}/> */}
         <img src={camper.gallery[0].thumb} alt={camper.name} width="400px" />
         <p>{camper.description}</p>
         <span>Price: &euro;{camper.price}</span>
-        <div>
+        {/* <div>
           <strong>Rating:</strong> {camper.rating} ({camper.reviews.length}{' '}
           reviews)
-        </div>
-        <div>
-          <strong>Location:</strong> {camper.location}
-        </div>
-      </div>
+        </div> */}
+        {/* <div> */}
+          {/* <strong>Location:</strong> {camper.location} */}
+        {/* </div>
+      </div> */}
       <BookingForm />
     </>
   );
